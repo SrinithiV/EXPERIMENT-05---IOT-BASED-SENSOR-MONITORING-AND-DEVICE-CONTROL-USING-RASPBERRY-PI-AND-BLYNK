@@ -1,16 +1,10 @@
- # EXPERIMENT-05-IOT BASED SENSOR MONITORING AND DEVICE CONTROL USING RASPBERRY PI AND BLYNK
----
-
+# EXPERIMENT-05-IOT BASED SENSOR MONITORING AND DEVICE CONTROL USING RASPBERRY PI AND BLYNK
 ### **NAME:**  SRINITHI V
 ### **DEPARTMENT:**  CSE(IoT)
 ### **ROLL NO:**  212223115003
 
----
-
 ## **AIM:**  
 To interface **IR and LDR sensors** with **Raspberry Pi 4** to monitor sensor values in the Blynk mobile application and control output devices such as **LED, buzzer, and relay** through the **Blynk platform**.
-
----
 
 ## **APPARATUS REQUIRED:**  
 1.	Raspberry Pi 4
@@ -26,8 +20,6 @@ To interface **IR and LDR sensors** with **Raspberry Pi 4** to monitor sensor va
 11.	Wi-Fi Internet Connection
 12.	Blynk Mobile Application
 13. Computer with Thonny IDE  
-
----
 
 ## **THEORY:**  
 <img width="1293" height="744" alt="image" src="https://github.com/user-attachments/assets/3c04afa6-1517-45d2-88f1-e671d9ed1ffb" />
@@ -74,7 +66,6 @@ Raspberry Pi connects to the internet through Wi-Fi and communicates with the Bl
 
  ### FIGURE-07 Buzzer: 
 
----
 ### **Procedure:** 
 1.	Install the required libraries such as **Blynk and GPIO libraries in the Raspberry Pi** .
 2.	Connect the IR sensor and LDR sensor to the input GPIO pins of the Raspberry Pi.
@@ -86,6 +77,7 @@ Raspberry Pi connects to the internet through Wi-Fi and communicates with the Bl
 8.	Configure the program to receive commands from the Blynk app to control the LED, buzzer, and relay.
 9.	Run the program in Raspberry Pi.
 10.	Observe the sensor values in the Blynk application and control the output devices using the app interface.
+    
 ### **Algorithm / Program Flow:** 
 1.	Start the program.
 2.	Import the required libraries for GPIO control and Blynk communication.
@@ -101,10 +93,10 @@ o	Switch the relay ON or OFF.
 9.	Repeat the process to continuously monitor sensors and control devices.
 10.	Stop the program when required.
 
----
 ## **CIRCUIT DIAGRAM:**  
 ### **Connections:**  
 ### **GPIO Pin Connection Table:** 
+```
 |  Device  | 	Raspberry Pi GPIO Pin	  |  Purpose
 ---
 |  IR Sensor Output	  | 	GPIO 17		  |  Detect object presence
@@ -120,7 +112,7 @@ o	Switch the relay ON or OFF.
 |  VCC	  | 	5V Pin		  |  Power supply
 ---
 |  GND	  | 	GND Pin		  |  Common ground
----
+```
 
 ## **Sample Python Code for Raspberry Pi + Blynk**  
 ```
@@ -288,7 +280,6 @@ finally:
 ### FIGURE -15 Blynk App Screenshot for LED OFF
 <img width="728" height="1600" alt="image" src="https://github.com/user-attachments/assets/74e1f387-64b2-405f-8445-ee73bdd22077" />
 
-## **RESULT:**  
-Thus, the sensor values from the **IR and LDR sensors** were successfully monitored in the **Blynk mobile application using Raspberry Pi 4**, and the** output devices (LED, buzzer, and relay)** were controlled through the **Blynk interface based on the sensor inputs** and user commands.
----
+## **RESULT:**
 
+Thus, the sensor values from the **IR and LDR sensors** were successfully monitored in the **Blynk mobile application using Raspberry Pi 4**, and the** output devices (LED, buzzer, and relay)** were controlled through the **Blynk interface based on the sensor inputs** and user commands.
